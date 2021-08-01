@@ -6,6 +6,8 @@
  a  i{ 
      padding-left: 10px;
      padding-right:10px;
+     margin-bottom: 15px;
+     color: white;
     
 }
 
@@ -46,108 +48,72 @@ nav a:hover{
     color: red;
 }
 .main {
-  background-image: url("Images/Orange.jpg");
+  background-image: url("Images/kalimoni.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  background-color:green;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  display: block;
 
-} */
-
-
-/* .sidenav a:hover {
-  color: red;
-} */
-/* .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 20px;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 40px;}
-  .sidenav a {font-size: 18px;}
-} */
-/* #span{
-  padding-left:50px ;
-} */
 
 .nav img{
     float: left;
     padding: 10px;
 }
 
-/* #search{
-  padding:30px;
-  
-} */
+
 
 .information{
   color:white;
   font-size: 20px;
-  margin: 100px;
-  margin-top: 20%;
-  margin-left: 20%;
-  margin-right: 10%;
+  margin: 200px;
+  margin-top: 15%;
+  margin-left: 18%;
+  margin-right: 15%;
   text-align: center;
 }
 
 
 .wrapper{
 	position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  bottom: 25%;
+  left: 50%;
+   transform: translate(-50%, -50%); 
     background: rgba(0, 0, 0,0.6);
     width: 60%;
-    padding: 15px;
+    padding: 18px;
     display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
+     justify-content: space-around; 
+     border-radius: 10px; 
 }
 
 .wrapper .input {
-    width: 85%;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
+    width: 100%;
+    border:none;
+   font-weight: bold;  
 }
 
  .searchbtn {
     background-color: red;
-    width: 30%;
-    border-radius: 5px;
-    position: relative;
+    width: 10%;
+    position: absolute;
     cursor: pointer;
+    top: 2px;
+    padding-bottom:35px;
+    padding: 20px;
+    margin-top: 26px;
+    margin-right: 26px;
+    right: 0;
+    padding-top:20px; 
+     
 } 
 
 .searchbtn .fas{
 	position: absolute;
     top: 30%;
-    left: 20%;
-    /* transform: translate(-50%, -50%); */
+    left: 30%;
+    transform: translate(-50%, -50%); 
     font-size: 18px;
   
 }
@@ -156,7 +122,7 @@ q{
   font-size:25px;
 }
 
-.media:hover{
+.main:hover{
   color:red;
 }
 
@@ -186,17 +152,27 @@ span{
   color: white;
   text-decoration: none;
   padding: 10px;
+  margin-top: -25px;
+  
+   
+
+
+  
 } 
+.Login li:hover{
+  color: red;
+}
 
 li a{
   list-style: none;
   color: white;
   text-decoration: none;
+  margin-bottom: 100px;
+  
+  
 }
 
-.Login li:hover{
-  color: red;
-}
+
 
 li a:hover{
   color: red;
@@ -205,7 +181,12 @@ li a:hover{
 #search{
   float: right;
   color:white;
-  padding: 30px;
+   padding-top:40px;
+   margin-right: -100px; 
+  
+   
+
+
 }
 
  .searchbtn2 {
@@ -214,11 +195,237 @@ li a:hover{
    padding:10px ; 
   background-color: white;
   color: black;
-  border-radius: 5px;
-  width: 10%;
+  /* border-radius: 5px; */
+  width: 20%;
   font-size: 20px;
 
-}  
+} 
+
+ .searchbtn2 li{
+  font-size: 10px;
+  padding: 13px;
+ 
+} 
+
+.description{
+  text-align: center;
+  font-style: italic;
+  padding: 60px;
+  
+ 
+  
+ }
+ h2{
+   font-size: 40px;
+   color: darkolivegreen;
+   padding: 30px;
+   
+ }
+
+ #para1{
+   flex-wrap: wrap;
+   margin-right: 200px;
+  margin-left: 200px;
+  font-style: normal;
+  color: grey;
+ 
+
+ }
+
+ .button {
+  background-color:red;
+  border: none;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 14px;
+  margin-left:200px ;
+  margin-right: 100px;
+}
+
+.button:hover{
+  background-color: darkolivegreen;
+}
+
+.button2 {
+  background-color:whitesmoke;
+  border: none;
+  color:black;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 14px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.button2:hover{
+  background-color: grey;
+  
 
 
+}
+
+.column {
+  float: left;
+  width: 25%;
+   padding: 10px; 
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+img{
+  padding:50px;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  
+}
+
+.column {
+ 
+  float: left;
+  /* width: 33.33%; */
+   /* padding: 5px; */
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .row {
+  display: flex;
+}  */
+
+ .column {
+  padding:10px;
+}
+ 
+.top{
+  text-align: center;
+  color: darkolivegreen;
+  font-size: 30px;
+  padding: 30px;
+  background-color: rgb(170, 169, 169);
+  border:rgb(221, 216, 216) ;
+
+  
+}
+
+.product{
+  background-color: #f5f5f5dc;
+  
+}
+
+
+  .button3{
+  
+    background-color:whitesmoke;
+     /* border: ;  */
+     color:grey;
+     padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    font-size: 15px;
+     margin: 80px;  
+    cursor: pointer;
+    border-radius: 14px;
+    margin-left:20px ;  
+    margin-left: auto;
+    margin-right: auto;
+     /* padding:4%;  */
+     
+
+    
+    
+
+     
+  }
+  .button3:hover{
+    border-style: solid;
+  }
+
+ 
+   
+  
+
+.section2{
+	background-color:darkslateblue;
+	padding: 10%; 
+  background-image: url("Images/ka.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+  
+
+}
+
+.section3{
+	background-color:darkslateblue;
+   padding-top: 100px; 
+   padding-top: 100px; 
+  
+  
+
+}
+
+p{
+  color: white;
+
+  font-size: 20px;
+
+}
+
+h3{
+  color: #ffff;
+   padding-bottom:60px; 
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  
 
